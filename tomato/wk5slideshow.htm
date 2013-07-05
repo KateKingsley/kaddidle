@@ -1,0 +1,133 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Tomato Experiment</title>
+    <link rel="Stylesheet" type="text/css" href="../styles/StyleSheet.css" />
+
+
+    <style type="text/css">
+
+    /* All Styles Optional */
+        div#show3 
+        {
+            background-color:#efefef;
+            width:140px;
+            margin:0 auto;
+            border:1px solid #444444;
+        }
+
+        div#show3 table td, div#show4 table td 
+        {
+            height:24px;
+            background-image:url('38.gif');
+        }
+
+        div#show4 table td 
+        {
+            background-image:url('40.gif');
+        }
+
+        div#show3 table input,  div#show4 table input 
+        {
+            outline-style:none;
+        }
+    </style>
+
+    <!--
+        [if IE]>
+        <style type="text/css">
+        div#show3 table td, div#show4 table td {
+        height:21px;
+        }
+        </style>
+        <![endif]
+    -->
+
+    <script type="text/javascript">
+
+        //If using image buttons as controls, Set image buttons' image preload here true
+        //(use false for no preloading and for when using no image buttons as controls):
+        var preload_ctrl_images = true;
+
+        //And configure the image buttons' images here:
+        var previmg = 'left.gif';
+        var stopimg = 'stop.gif';
+        var playimg = 'play.gif';
+        var nextimg = 'right.gif';
+
+        var slides = []; //FIRST SLIDESHOW
+        //configure the below images and descriptions to your own. 
+        slides[0] = ["images/wk5complete.jpg", "Complete"];
+        slides[1] = ["images/wk5ca.jpg", "Calcium"];
+        slides[2] = ["images/wk5fe.jpg", "Iron"];
+        slides[3] = ["images/wk5mg.jpg", "Magnesium"];
+        slides[4] = ["images/wk5n.jpg", "Nitrogen"];
+        slides[5] = ["images/wk5p.jpg", "Phosphorous"];
+        slides[6] = ["images/wk5k.jpg", "Potassium"];
+        slides[7] = ["images/wk5s.jpg", "Sulfur"];
+        slides[8] = ["images/wk5micro.jpg", "Microelements"];
+        slides[9] = ["images/wk5distilled.jpg", "Distilled water"];
+        slides[10] = ["images/wk5tap.jpg", "Tap water"];
+
+        //above slide show uses only the defaults
+
+
+        //Notes:
+        //slides#.target will set a target for a slide group, will be overridden by slides#[#][3], if present
+        //slides#.specs will set new window specifications for a slide group, will be overridden by slides#[#][4], if present
+        //slides#.fadecolor will set fading images background color, defaults to white
+        //slides#.no_controls will set a slide show with no controls
+        //slides#.random will set a random slide sequence on each page load
+        //slides#.delay=3000 will set miliseconds delay between slides for a given show, may also be set in the call as the last parameter
+        //slides#.jumpto=1 will display added controls to jump to a particular image by its number
+        //slides#.no_added_linebreaks=1; use for no added line breaks in formatting of texts and controls
+
+        //use below to create a customized onclick event for linked images in a given show:
+        //slides#.onclick="window.open(this.href,this.target,'top=0, left=0, width='+screen.availWidth+', height='+screen.availHeight);return false;"
+
+    </script>
+
+    <script src="scripts/swissarmy.js" type="text/javascript">
+
+        /***********************************************
+        * Swiss Army Image slide show script  - © John Davenport Scheuer: http://home.comcast.net/~jscheuer1/
+        * This notice MUST stay intact for legal use
+        * Visit Dynamic Drive at http://www.dynamicdrive.com/ for full original source code
+        ***********************************************/
+
+    </script>
+
+</head>
+
+<body id="wrap"><!--This will be the underlaying back ground of the whole page -->
+
+    <!-- Navagation -->
+    <div class="nav">
+        <a href="tomato.htm#week2">Return</a>
+    </div><!-- end nav -->
+
+
+    <!-- Main content -->
+    <div id="main">
+            <div class="sectionheading">Tomatoes week 5</div>
+            <br />
+                <p>
+                    <script type="text/javascript">
+                        //Notes on Parameters: The only required parameter is the slides_array_name.  If Width is used, so must Height.
+                        //Interval is optional too.  It is always last, either fourth after Width and Height or second after Slides_array_name.
+                        //Usage: new inter_slide(Slides_array_name, Width, Height, Interval)
+                        new inter_slide(slides)
+                    </script>
+                </p>
+      
+
+        <div id="footer"><!-- footer -->
+             Pictures from April 13, 2012<br />
+             
+        </div><!-- end footer -->
+
+    </div><!-- end main content div -->
+</body>
+</html>
+

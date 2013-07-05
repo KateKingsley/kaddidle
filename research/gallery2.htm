@@ -1,0 +1,175 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Nasonia Gallery</title>
+    <link rel="Stylesheet" type="text/css" href="styles/StyleSheetResearch.css" />
+
+
+    <style type="text/css">
+
+        /* All Styles Optional */
+
+        div#show3 
+        {
+            background-color:#efefef;
+            width:140px;
+            margin:0 auto;
+            border:1px solid #444444;
+        }
+
+        div#show3 table td, div#show4 table td 
+        {
+            height:24px;
+            background-image:url('38.gif');
+        }
+
+        div#show4 table td 
+        {
+            background-image:url('40.gif');
+        }
+
+        div#show3 table input,  div#show4 table input 
+        {
+            outline-style:none;
+        }
+    </style>
+
+    <!--
+        [if IE]>
+        <style type="text/css">
+        div#show3 table td, div#show4 table td {
+        height:21px;
+        }
+        </style>
+        <![endif]
+    -->
+
+    <script type="text/javascript">
+
+        //If using image buttons as controls, Set image buttons' image preload here true
+        //(use false for no preloading and for when using no image buttons as controls):
+        var preload_ctrl_images = true;
+
+        //And configure the image buttons' images here:
+        var previmg = 'left.gif';
+        var stopimg = 'stop.gif';
+        var playimg = 'play.gif';
+        var nextimg = 'right.gif';
+
+        var slides = []; //FIRST SLIDESHOW
+        //configure the below images and descriptions to your own. 
+        slides[0] = ["images/n-blowfllypupa.jpg" , "Nasonia arrived as larvae inside these four blowfly pupas."];
+        slides[1] = ["images/n-corpse.jpg", "From the second pupa that was opened, this blowfly remains have some black and white Nasonia still maturing on it."];
+        slides[2] = ["images/n-corpse2.jpg", "The golden areas are the skins the Nasonia emerged from."];
+        slides[3] = ["images/n-maybeGroup.jpg", "Wasp in various stages of development."];
+        slides[4] = ["images/n-firstfemale.jpg", "The first Nasonia to emerge."];
+        slides[5] = ["images/n-male.jpg", "The only male to fully emerge from the second pupa, he was named Leon."];
+        slides[6] = ["images/n-troublemolting.jpg", "This female, from the second pupa, had trouble molting the skin from her wings."];
+        slides[7] = ["images/n-troublemolting7.jpg", "Her wings are deformed and about the length of a male's wings. She was named Littlewing."];
+        slides[8] = ["images/n-troublemolting5.jpg", "Grooming"];
+        slides[9] = ["images/n-troublemolting6.jpg", "The Nasonia often flutter their wings after grooming but they don't actually fly but they do hop."];
+        slides[10] = ["images/n-leeluside.jpg", "This female from the second pupa became known as Leelu. One could say she is perfect."];
+        slides[11] = ["images/n-leelupupa2.jpg", "After mating with Leon Leelu spent a lot of time with the fly pupa."];
+        slides[12] = ["images/n-leelupupa3.jpg", "Leelu not only injects eggs she also inject venom and other fluids into the pupa."];
+        slides[13] = ["images/n-leelupupa4.jpg", "A female that mates can choose to use the sperm from the male as well as how many eggs will be fertilized."];
+        slides[14] = ["images/n-leelureflected.jpg", "Leelu's reflection"];
+        slides[15] = ["images/n-flypupa3whole.jpg", "Pupa number 3 about to be opened."];
+        slides[16] = ["images/n-flypupa3open.jpg", "Pupa number 3, wasp are still in at an instar between larval and mature."];
+        slides[17] = ["images/n-p4v.jpg", "From the fourth pupa, these (P4) virgin females will still lay eggs in these pupa over the next three days and predominately produce males."];
+        slides[18] = ["images/n-infestedpupa2day1.jpg", "Five days later this pupa from the P4 virgins was opened. Small larvae can be seen and a tube is sticking out of an injection site."];
+        slides[19] = ["images/n-infestedpupa2day2.jpg", "Day two and the wasp larvae have more than doubled in size."];
+        slides[20] = ["images/n-infestedpupa2day3.jpg", "Day three and the larvae have starting to wander away."];
+        slides[21] = ["images/n-infestedpupa2day4.jpg", "Day four and some larvae are starting to darken perhaps entering another instar."];
+
+        //above slide show uses only the defaults
+
+
+
+        //Notes:
+        //slides#.target will set a target for a slide group, will be overridden by slides#[#][3], if present
+        //slides#.specs will set new window specifications for a slide group, will be overridden by slides#[#][4], if present
+        //slides#.fadecolor will set fading images background color, defaults to white
+        //slides#.no_controls will set a slide show with no controls
+        //slides#.random will set a random slide sequence on each page load
+        //slides#.delay=3000 will set miliseconds delay between slides for a given show, may also be set in the call as the last parameter
+        //slides#.jumpto=1 will display added controls to jump to a particular image by its number
+        //slides#.no_added_linebreaks=1; use for no added line breaks in formatting of texts and controls
+
+        //use below to create a customized onclick event for linked images in a given show:
+        //slides#.onclick="window.open(this.href,this.target,'top=0, left=0, width='+screen.availWidth+', height='+screen.availHeight);return false;"
+
+    </script>
+
+    <script src="swissarmy.js" type="text/javascript">
+
+        /***********************************************
+        * Swiss Army Image slide show script  - © John Davenport Scheuer: http://home.comcast.net/~jscheuer1/
+        * This notice MUST stay intact for legal use
+        * Visit Dynamic Drive at http://www.dynamicdrive.com/ for full original source code
+        ***********************************************/
+
+    </script>
+
+</head>
+
+<body id="wrap"><!--This will be the underlaying back ground of the whole page -->
+
+    <div id="screen">
+        <!-- header -->
+        <div id="header">
+            <center>
+                <img src="images/background-title2.jpg" />
+            </center>
+        </div><!-- end div header -->
+    </div><!-- end screen div -->
+
+    <!-- Navagation -->
+    <div class="nav">
+        <a href="../index.htm">Home</a>
+        <a href="articles.htm">Articles</a>
+        <a href="video.htm">Videos</a>
+     </div><!-- end td nav -->
+
+
+    <!-- Main content -->
+    <div id="main">
+        <div class="post">
+        <br />
+            <div class="sectionheading">Nasonia Gallery</div>
+            <br />
+
+                <p>
+                    <script type="text/javascript">
+                        //Notes on Parameters: The only required parameter is the slides_array_name.  If Width is used, so must Height.
+                        //Interval is optional too.  It is always last, either fourth after Width and Height or second after Slides_array_name.
+                        //Usage: new inter_slide(Slides_array_name, Width, Height, Interval)
+                        new inter_slide(slides)
+                    </script>
+                </p>
+
+        </div><!-- end post -->
+ 
+        <div id="links">
+            <a class="linkcategory">Gallery List</a><br />
+            <hr />
+                <span class="fade">Nasonia</span>
+                <br />        
+                <a href="gallery3.htm">Braconid</a>
+                <br />
+
+                <a href="gallery.htm">Hornworm</a>
+                <br />
+                <br />
+
+        </div><!-- end links -->
+
+
+        <div id="footer">
+            Last update March 10, 2012<br />
+                <a href="../index.htm">Home</a> | <a href="articles.htm">Articles</a> | <a href="video.htm">Videos</a>
+        </div><!-- end footer div-->
+
+    </div><!-- end main content div -->
+</body>
+</html>

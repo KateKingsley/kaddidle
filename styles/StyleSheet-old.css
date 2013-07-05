@@ -1,0 +1,392 @@
+﻿body
+{
+font-size: medium;
+font-family: Times New Roman;
+}
+
+a:link
+{
+color: #CCCCCC;
+}
+
+a:visited
+{
+color: #FFFDDA;
+}
+
+a:hover
+{
+color: #FF9966;
+}
+
+a:active
+{
+color: Yellow; 
+}
+
+#wrap
+{
+background-color: #000000;
+margin: 10px auto;
+padding: 5px 10px 10px 5px;
+width: 90%
+}
+
+#screen
+{
+background-color: #FF9966;
+padding: 5px 3px 3px 5px;
+    
+}
+
+#header
+{
+font-size: x-large;
+font-family: Comic Sans MS;
+width:100%;
+background-color: #336699;
+color: #FFFDED;
+    height: 39px;
+}
+
+#screen2
+{
+    background-color: #275078;
+}
+
+#nav a /* controls the over all look of top nav buttons */
+{
+    display: inline-block;
+    padding: 2px;
+    text-decoration: none;
+    text-align: center;
+    width: 100px;
+    margin: 2px;
+}
+
+#nav a:link, #nav a:visited /* controls color of top nav buttons */
+{
+    background: #275078;
+    color: #FFFFFF;
+}
+
+#nav a:focus, #nav a:hover
+{
+    background: #346AA0;
+    color: #FFCC66;
+}
+
+#nav a:active /* controls color of top nav buttons */
+{
+    background: #275078;
+    
+    color: #FFFFFF;
+}
+
+ 
+#body
+{
+     
+background-color: #333333;
+color: #FFFFFF;
+width:auto;
+padding: 20px 10px 10px 10px;
+}
+
+img.mini
+{
+    
+    border: none;
+}
+
+#minis a:hover 
+{
+    background:white;
+}
+#minis img.big 
+{
+   height: 0; width: 0; border-width: 0;
+}
+#minis a:hover img.big
+{
+   
+    position: absolute; left: 40%; top: 15%;
+    height: 375px;width: 500px; border: none;
+}
+
+#frame
+{
+   position: absolute; left: 40%; top: 15%;
+    height: 355px; width: 480px; 
+    border: 2px solid red;
+    font: 1em "trebuchet MS", Verdana, sans-serif;
+    color: Red; padding: 10px
+}
+
+p
+{  
+    margin-bottom: 26px;
+}
+
+.head
+{
+font-size: x-large;
+font-family: Comic Sans MS;
+width:100%;
+background-color: #336699;
+color: #FFFDED;
+    height: 39px;
+}
+
+
+.main
+{
+font-size: medium;
+font-family: Tahoma;       
+background-color: #333333;
+color: #FFFFFF;
+width:auto;
+}
+
+/* #nav ul
+ {
+    margin:0;
+    padding:0;
+    list-style: none; 
+ }
+ #nav a
+ {
+     display:block;
+     width:10em;
+ }
+#nav li
+ {
+     float:left;
+     width:10em;
+ }
+ #nav li ul
+ {
+     display:none;
+ }
+ #nav li:hover ul
+ {
+     display:block;
+     width:10em;
+     position:absolute;
+ }
+*/
+
+ div.content
+ {
+     clear:left;
+ }
+ 
+ /* styles for survey */
+fieldset
+{
+    margin-bottom: 1em;
+    
+    width: 30em;
+    padding: 2em 2em 0em 1em;  
+}
+#test
+{
+    float:left;
+}
+
+#test-2
+{
+    float:right;
+}
+
+.inner
+{
+    margin-bottom: .5em;
+    margin-left: -.5em;
+    width: 30.7em;
+    padding: .7em .2em .3em .4em;
+    background-color: #FFDFC1;
+}
+
+.survey
+{
+    background-color: #CCD1BE;   
+}
+
+#button
+{
+    text-align:center;
+}
+
+p.legend
+{
+    background:#A4C1C1;
+    color: Black;
+    border: 2px outset #DED983;
+    padding-top: .2em .3em 0 0;
+    font-size: 1.2em;
+    position: relative;
+    margin: 1em 0 -1em 1em;
+    width: 10em;
+}
+
+p.innerlegend
+{ 
+    background-color:#FFDFC1;
+    color: Black;
+    border: 2px outset #DED983;
+    padding-top: .2em .3em .2em .3em;
+    font-size: 1em;
+    position: relative;
+    margin: 1em 0 -.9em 1em;
+    width: 11em; 
+}
+
+
+/*Styles used in the school section*/
+/* drop down menu nav in the school section*/
+.category
+{ 
+    
+    color: #FFFFFF; 
+    padding: 6px 11px;
+}
+
+.droplinebar{
+overflow: hidden;
+}
+
+.droplinebar ul{
+margin: 0;
+padding: 0;
+
+width: 100%;
+background: #2077A6 url('../images/bluedefault.gif') center center repeat-x; /*default background of menu bar*/
+    border-top-style: ridge;
+    border-bottom-style: ridge;
+    border-color: #C8C1B5;
+    border-width: thick;
+}
+
+.droplinebar ul li{
+display: inline;
+    border-width: 1px;
+    border-color: #FFFFFF;
+    display: inline-block;
+    padding: 2px;
+    text-decoration: none;
+    text-align: center;
+    width:80px;
+    margin: 2px;
+}
+
+.droplinebar ul li a{
+
+color: white;
+padding: 6px 11px;
+text-decoration: none;
+}
+
+.droplinebar ul li a:visited{
+color: white;
+}
+
+.droplinebar ul li a:hover, .droplinebar ul li .current{ /*background of main menu bar links onMouseover*/
+color: #FFB366;
+background: transparent url('../images/blueactive.gif') center center repeat-x;
+}
+
+/* Sub level menus*/
+.droplinebar ul li ul
+{
+    background-position: #165374;
+    position: absolute;
+    z-index: 100;
+    left: 0;
+    top: 0;
+    background: #1A5E82; /*sub menu background color */
+    visibility: hidden;
+}
+
+/* Sub level menu links style */
+.droplinebar ul li ul li a
+{
+    background-position: #165374;
+    padding: 6px;
+    padding-right: 8px;
+    margin: 0;
+}
+
+.droplinebar ul li ul li a:hover{ /*sub menu links' background color onMouseover */
+background: transparent;
+
+}
+/* sub-sub lvl menu */
+.droplinebar ul li ul li ul
+{
+    background-color: #154E6C;
+}
+/*End of school drop down nav*/
+
+/* styles for chem */
+.hydrocarbmap
+{
+    caption-side:top;
+}
+
+.blueHi
+{
+    color: #0033CC;
+    
+}
+
+.redHi
+{
+    color: #CC0000;
+    
+}
+
+/* used for picture gallery pages, 
+Credits: Dynamic Drive CSS Library */
+/*URL: http://www.dynamicdrive.com/style/ */
+
+.gallerycontainer{
+    position: relative;
+/*Add a height attribute and set to largest image's height to prevent overlaying*/
+}
+
+.thumbnail img{
+    border: 1px solid white;
+    margin: 0 5px 5px 0;
+}
+
+.thumbnail:hover{
+    background-color: transparent;
+}
+
+.thumbnail:hover img{
+    border: 1px solid blue;
+}
+
+.thumbnail span{ /*CSS for enlarged image*/
+    position: absolute;
+    background-color: transparent;
+    padding: 5px;
+    left: -1000px;
+    visibility: hidden;
+    color: black;
+    text-decoration: none;
+}
+
+.thumbnail span img{ /*CSS for enlarged image*/
+    border-width: 0;
+    padding: 2px;
+}
+
+.thumbnail:hover span{ /*CSS for enlarged image*/
+    visibility: visible;
+    top: 0;
+    left: 250px; /*position where enlarged image should offset horizontally */
+    z-index: 50;
+}
+/* end of picture gallery pages */

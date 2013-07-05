@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+        <title>401 Error</title>
+    <link rel="Stylesheet" type="text/css" href="http://www.kaddidle.com/styles/StyleSheet.css" />
+</head>
+
+<body id="wrap"><!--This will be the underlaying back ground of the whole page -->
+
+
+<div id="screen"><!-- gives color around the header -->
+
+<!-- header -->
+<div id="header">
+    <center>
+        !!!!!!
+    </center>
+</div><!-- end header -->
+</div><!-- end wrap and screen div --> 
+
+
+  
+<!-- Main Content -->
+<div id="main">
+<span class="sectionheading">Oops, did you forget something?</span><br />
+<br />
+Go <a href="http://www.kaddidle.com/">back</a> from whence you came and come here no more!
+</div>
+
+</body>
+</html>

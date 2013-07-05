@@ -1,0 +1,219 @@
+﻿body
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+
+
+/* Basic lay out structure for all pages */
+#wrap
+{
+    background-color: #FFFFFF;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    width: 800px;
+}
+
+
+#screen
+{
+    background-color: #FFFFFF;
+    padding: 0px 5px 5px 5px;
+    
+}
+
+/* doggie on a leash header*/
+#header
+{
+    
+    width:93.5%;
+    float:left;
+    background-position: left center;
+    background-repeat: no-repeat;
+    height: 45px;
+    padding: 10px 0px 30px 0px;
+    background-image: url('../images/background-1e.jpg');
+}
+
+.headerlink a:link, a:focus, a:visited, a:hover
+{
+    border-color:#CAC4B7;
+    color:#CAC4B7;
+}
+
+.nav
+{   clear:both;
+    border-width: medium;
+    border-color: #A98C88 #FFFFFF #A98C88 #FFFFFF;
+    padding: 2px 0 2px 0;
+    background-color: #5E92AA;
+    border-bottom-style: outset;
+    border-top-style: outset;
+}
+
+.nav a
+{
+    border-width: 1px;
+    border-color: #FFFFFF;
+    display: inline-block;
+    padding: 2px;
+    text-decoration: none;
+    text-align: center;
+    width:80px;
+    margin: 2px;
+    
+}
+
+.nav a:link, .nav a:visited
+{
+    background: #5E92AA;
+    color: #FFFFFF;
+}
+
+.nav a:focus, .nav a:hover
+{
+    background-position: #5E92AA;
+    background: #5E92AA;
+    color: #464646;
+}
+
+.nav a:active
+{
+    background: #5E92AA;
+    color: #FFFFFF;
+}
+
+a:link, a:visited
+{
+    text-decoration: none;
+    color: #CC6600;
+}
+
+a:hover
+{
+    color: #5E92AA;
+}
+
+/* moves the links to the right on the homepage*/
+#links
+{
+    
+    float:right;
+    padding:0px 0px 5px 5px;
+}
+.linkcategoryheader
+{
+    border-width: medium;
+    border-color: #666666;
+    font-family: Georgia;
+    font-size: 15px;
+    border-bottom-style: solid;
+    color: #464646;
+}
+.linkcategory
+{
+    font-family: Georgia;
+    font-size: 13px;
+}
+
+/* purpose is to expand the wrap div all the way down on the home page
+and to give the date of the latest update*/
+#footer
+{
+    text-align: center;
+    padding: 25px 10px 10px 0;
+    clear: both;
+}
+
+/* settings for main page */
+#main
+{
+    background-color: #FFFFFF;
+    color: #000000;
+    padding: 15px 5px 20px 5px;
+    width: auto;
+}
+#videomain
+{
+    background-image: url('../images/bg-microscope.jpg');
+    background-position:center;
+    background-repeat:no-repeat;
+    color: #000000;
+    padding: 15px 5px 20px 5px;
+    width: auto;
+}
+
+
+/* used on homepage for main content area*/
+.post
+{
+    width:80%;
+    float:left;
+    padding: 0px 10px 0px 0px;
+}
+
+
+.sectionheading
+{
+    border-width: medium;
+    border-color: #5E92AA;
+    font-family: Georgia;
+    font-size: 18px;
+    font-weight: 400;
+    border-bottom-style: solid;
+}
+
+.subsectionheading
+{
+    border-width: thin;
+    border-color: #8EA6B0;
+    font-family: Georgia;
+    font-size: 18px;
+    font-weight: 400;
+    border-bottom-style: solid;
+}
+
+.currentread /* used in articles only */
+{
+    font-family: Georgia;
+    font-size: 18px;
+    font-weight: 400;
+    color: #990000;
+}
+
+.note
+{
+    font-family: Georgia;
+    color: #990000;
+}
+
+.fade /* used on gallery pages to indicate which gallery is selected*/
+{
+    font-family: Georgia;
+    color: #C0C0C0;
+}
+
+
+/* video page */
+.videocontainer
+{
+    padding: 15px 0px 35px 0px;
+    clear:both;
+}
+.videoIcon
+{
+    padding-right: 5px;
+    width:20%;
+    float:left;   
+}
+
+.videodescription
+{
+    padding-top: 40px;
+    width:65%;
+    float:right;
+}
+
+

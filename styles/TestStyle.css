@@ -1,0 +1,371 @@
+﻿body
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+/* development for Traci's page*/
+.movie
+{
+    position:absolute;
+    margin: 5px 5px 5px 5px;
+}
+.movie2
+{
+    position:relative;
+    left:480px;
+    margin: 5px 5px 5px 5px;
+}
+.moviecontainer
+{
+    position:static;
+}
+.moviescreen
+{
+   position:relative;
+}
+
+
+
+/* Basic lay out structure for all pages  */
+#wrap
+{
+   
+    background-color: #D3D5C6;
+    margin: 8px auto;
+    padding: 5px 10px 10px 10px;
+    width: 95%;
+}
+
+#screen
+{
+    background-color: #88B1BD;
+    padding: 5px 5px 5px 5px;
+}
+
+#header
+{
+    font-size: x-large;
+    font-family: Comic Sans MS;
+    width: 100%;
+    background-position: left center;
+    background-repeat: no-repeat;
+    color: #FFFDED;
+    height: 85px;
+    padding: 10px 0px 20px 0px;
+    background-image: url('../images/background-1c.jpg');
+}
+
+#header2
+{
+    font-size: x-large;
+    font-family: Comic Sans MS;
+    width: 100%;
+    background-position: left center;
+    background-repeat: no-repeat;
+    color: #FFFDED;
+    height: 85px;
+    padding: 10px 0px 20px 0px;
+    background-image: url('../images/background-3c.jpg');
+}
+
+.nav
+{
+    padding: 2px 0 2px 0;
+    background-color: #2077A6;
+}
+
+.nav a
+{
+    border-width: 1px;
+    border-color: #FFFFFF;
+    display: inline-block;
+    padding: 2px;
+    text-decoration: none;
+    text-align: center;
+    width: 80px;
+    margin: 2px;
+    border-right-style: solid;
+}
+
+.nav a:link, .nav a:visited
+{
+    background: #2077A6;
+    color: #FFFFFF;
+}
+
+.nav a:focus, .nav a:hover
+{
+    background: #2077A6;
+    color: #FFB366;
+}
+
+.nav a:active
+{
+    background: #3880BA;
+    color: #FFFFFF;
+}
+
+
+#main
+{
+    background-color: #E0E1D7;
+    color: #000000;
+    padding: 20px 10px 10px 10px;
+    width: auto;
+}
+
+a:link, a:visited
+{
+    text-decoration:none;
+    color: #669999;
+}
+
+a:hover
+{
+    color: #FF6600;
+}
+p
+{  
+    
+    margin: 0 0 10px 0;
+}
+.images
+{
+    padding-bottom: 5px;
+}
+.left
+{
+    float: left;
+}
+
+.right
+{
+    float: right;
+}
+
+/* styles for volunteer page */
+
+.headsup
+{
+    position:relative;
+    padding: 0 5px 10px 5px;
+    margin-left: 105px;
+}
+.dream
+{   
+    position:relative;
+    padding: 0 5px 10px 5px;
+    margin-left: 100px;
+}
+.habitat
+{
+    position:relative;
+    padding: 0 5px 10px 5px;
+    margin-left: 105px;
+}
+
+
+/* styles for links page */
+
+.linktext
+{ 
+    width:50%;
+    margin: 0px 5px 5px 115px
+}
+.linktext2
+{ 
+    width:50%;
+    margin: 0px 5px 5px 115px
+}
+.title
+{ 
+    font-weight: bold; 
+}
+
+
+.link
+{
+    float:left;
+    padding: 20px 5px 20px 5px;
+}
+.link2
+{
+    float:right;
+    padding: 20px 5px 20px 12px;
+}
+
+
+/* styles for survey */
+fieldset
+{
+    margin-bottom: 1em;
+    
+    width: 30em;
+    padding: 2em 2em 0em 1em;  
+}
+#test
+{
+    float:left;
+}
+
+#test-2
+{
+    float:right;
+}
+
+.inner
+{
+    margin-bottom: .5em;
+    margin-left: -.5em;
+    width: 30.7em;
+    padding: .7em .2em .3em .4em;
+    background-color: #FFDFC1;
+}
+
+.survey
+{
+    background-color: #CCD1BE;   
+}
+
+#button
+{
+    text-align:center;
+}
+
+p.legend
+{
+    background:#A4C1C1;
+    color: Black;
+    border: 2px outset #DED983;
+    padding-top: .2em .3em 0 0;
+    font-size: 1.2em;
+    position: relative;
+    margin: 1em 0 -1em 1em;
+    width: 10em;
+}
+
+p.innerlegend
+{ 
+    background-color:#FFDFC1;
+    color: Black;
+    border: 2px outset #DED983;
+    padding-top: .2em .3em .2em .3em;
+    font-size: 1em;
+    position: relative;
+    margin: 1em 0 -.9em 1em;
+    width: 11em; 
+}
+
+/* used for family pages, Credits: Dynamic Drive CSS Library */
+/*URL: http://www.dynamicdrive.com/style/ */
+
+.gallerycontainer{
+    position: relative;
+/*Add a height attribute and set to largest image's height to prevent overlaying*/
+}
+
+.thumbnail img{
+    border: 1px solid white;
+    margin: 0 5px 5px 0;
+}
+
+.thumbnail:hover{
+    background-color: transparent;
+}
+
+.thumbnail:hover img{
+    border: 1px solid blue;
+}
+
+.thumbnail span{ /*CSS for enlarged image*/
+    position: absolute;
+    background-color: white;
+    padding: 5px;
+    left: -1000px;
+    visibility: hidden;
+    color: black;
+    text-decoration: none;
+}
+
+.thumbnail span img{ /*CSS for enlarged image*/
+    border-width: 0;
+    padding: 2px;
+}
+
+.thumbnail:hover span{ /*CSS for enlarged image*/
+    visibility: visible;
+    top: 0;
+    left: 250px; /*position where enlarged image should offset horizontally */
+    z-index: 50;
+}
+
+/* New drop down menu */
+
+.category
+{ 
+    float: left;
+    color: #FFFFFF; 
+    padding: 9px 11px;
+}
+
+
+.droplinebar{
+overflow: hidden;
+}
+
+.droplinebar ul{
+margin: 0;
+padding: 0;
+float: left;
+width: 100%;
+font: bold 13px Arial;
+background: #1A5E82 url('../images/bluedefault.gif') center center repeat-x; /*default background of menu bar*/
+}
+
+.droplinebar ul li{
+display: inline;
+}
+
+.droplinebar ul li a{
+float: left;
+color: white;
+padding: 9px 11px;
+text-decoration: none;
+}
+
+.droplinebar ul li a:visited{
+color: white;
+}
+
+.droplinebar ul li a:hover, .droplinebar ul li .current{ /*background of main menu bar links onMouseover*/
+color: #FFB366;
+background: transparent url('../images/blueactive.gif') center center repeat-x;
+}
+
+/* Sub level menus*/
+.droplinebar ul li ul
+{
+    background-position: #165374;
+    position: absolute;
+    z-index: 100;
+    left: 0;
+    top: 0;
+    background: #154E6C; /*sub menu background color */
+    visibility: hidden;
+}
+
+/* Sub level menu links style */
+.droplinebar ul li ul li a
+{
+    background-position: #103D54;
+    font: normal 13px Verdana;
+    padding: 6px;
+    padding-right: 8px;
+    margin: 0;
+   
+}
+
+.droplinebar ul li ul li a:hover{ /*sub menu links' background color onMouseover */
+background: transparent;
+
+}

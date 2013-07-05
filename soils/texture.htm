@@ -1,0 +1,125 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Soil Triangle</title>
+    <link rel="Stylesheet" type="text/css" href="../styles/StyleSheet.css" />
+    
+</head>
+
+<body id="wrap"><!--This will be the underlaying back ground of the whole page -->
+
+    <div id="screen">
+
+    <!-- header -->
+    <div id="header3">
+        <center>
+            <img src="../images/background-title4.jpg "/>
+        </center>
+    </div><!-- end div header -->
+    </div><!-- end screen div -->
+
+
+    <!-- Navigation-->
+    <div class="nav">
+        <a href="../index.htm">Home</a>
+        <a href="soilhome.htm">Soil Defined</a>
+        <a href="structure.htm">Structure</a>
+        <a href="ped.htm">Pedon</a>    
+        <a>Triangle</a>
+    </div><!--end navigation -->
+
+    <!-- Main content -->
+    <div id="main">
+    <br />
+        <div class="sectionheading">Soil Triangle</div>
+        
+        <div id="post">
+
+            The soil triangle is a tool that can help you do two things, you can find the 
+            texture type when given percentages of sand, silt, and clay or if you have the 
+            texture type you can approximate the percentages. Knowing the texture type of a 
+            soil will help determine the usage of a particular land and wither or not you 
+            realized it, soil’s texture affects your every day life. To learn more about 
+            texture and particle size, you can <a href="soilhome.htm"> go to </a>the Soils page.
+            <br />
+            <br />
+
+            <span class="firstword">Using the Triangle</span>
+            <br />
+                Each side of the triangle has a scale of 0 to 100 percent. Whenever you use a new 
+                triangle it is a good idea to take a moment and fimilarize youself with it because all 
+                triangles may not have the exact layout. The triangle used here has Clay on the left, 
+                Silt on the right and Sand at the bottom. Some triangles will have no visable grid 
+                making it easier to see the area of each texture and some will have a grid to help 
+                find the texture by precentage values.
+                <br />
+                <br />
+
+                Starting with clay, its numbers are horozontal implying they horozontally divide the 
+                triangle. Likewise, silt and sand have numbers are they angled and imply the direction 
+                their lines are read across the triangle. By clicking Percent Clay, Percent Silt, and 
+                Percent Sand in the picture, lines will highlight to make it easier for you to see how 
+                the lines in each section divide the triangle.
+                <br />
+                <br />
+
+        </div><!-- end post div -->
+
+        Click headings in the image to change the view.<br />
+
+            <!--  These are old headings that sat above the image and were removed once clickable 
+            headings where places in the picture
+
+            used http://gwydir.demon.co.uk/jo/javascript/pix.htm#gallery as source for onclick directions 
+            <a onclick="document.images['triangle'].src='./images/soiltri_baselvl_browntone.jpg'">No Grid </a>&nbsp &nbsp
+            <a onclick="document.images['triangle'].src='./images/soiltri_grey_grid.jpg'">Grid</a> &nbsp &nbsp
+            <a onclick="document.images['triangle'].src='./images/soiltri_clay_browntone.jpg'">Percent Clay</a> &nbsp &nbsp
+            <a onclick="document.images['triangle'].src='./images/soiltri_silt_browntone.jpg'">Percent Silt</a> &nbsp &nbsp
+            <a onclick="document.images['triangle'].src='./images/soiltri_sand_browntone.jpg'">Percent Sand</a> &nbsp &nbsp
+            <br />
+            -->
+        <img src="images/soiltri_baselvl_browntone.jpg" alt="soil triangle" name="triangle"
+        usemap="#triangle" /> 
+
+        <br />
+        <br />
+
+        <span class="firstword">Let's Practice</span><br />
+            Now that you understand the layout of the triangle, let's practice using it. If you 
+            want to find a texture that has 20 percent sand, 70 percent silt and 10 percent clay, 
+            click <a class="blueHi" onclick="document.images['triangle'].src='./images/soiltri_grey_grid.jpg'">
+            Grid View</a> and then trace the value of each line until they meet.  
+            <a class="blueHi" onclick="document.images['triangle'].src='./images/soiltri_trace1a.jpg'">
+            Click here to see if you are correct</a>.
+            <br />
+
+        <div id="footer">
+            Updated March 22, 2012<br />
+             <br />
+                <a href="../index.htm">Home</a> | <a href="soilhome.htm"> Soil Defined </a> | <a href="structure.htm">Structure</a> 
+                | <a href="ped.htm">Pedon</a> | <a> Triangle </a>
+        </div><!-- end footer div -->
+
+    </div><!-- end main content -->
+
+    <map name ="triangle" id="triangle">
+        <area alt="Grid"shape="rect" coords="10,5 107,32" 
+            onclick="document.images['triangle'].src='./images/soiltri_grey_grid.jpg'" />
+    
+        <area alt="plain" shape="rect" coords="10,36 111,61" 
+            onclick="document.images['triangle'].src='./images/soiltri_baselvl_browntone.jpg'" />
+        
+        <area alt="clay" shape="rect" coords="44,210 158,239" 
+            onclick="document.images['triangle'].src='./images/soiltri_clay_browntone.jpg'" />
+    
+        <area alt="sand" shape="rect" coords="310,545 438,512" 
+            onclick="document.images['triangle'].src='./images/soiltri_sand_browntone.jpg'"  />
+    
+        <area alt="silt" shape="rect" coords="576,243 681,205" 
+            onclick="document.images['triangle'].src='./images/soiltri_silt_browntone.jpg'" />
+    
+    </map>
+
+</body>
+</html>

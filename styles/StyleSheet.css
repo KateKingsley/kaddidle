@@ -1,0 +1,397 @@
+﻿body
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+
+
+/* Basic lay out structure for all pages */
+#wrap
+{
+    background-color: #FFFFFF;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:0;
+    width: 800px;
+}
+/* wrap with DNA */
+#wrap2 
+{
+    background-image:url('../images/wrapbg.jpg');
+    background-color: #FFFFFF;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:0;
+    width: 800px;
+}
+
+#screen
+{
+    background-color: #FFFFFF;
+    padding: 0px 5px 0px 5px;
+    
+}
+
+/* doggie on a leash header*/
+#header
+{
+    background-position: left center;
+    background-repeat: no-repeat;
+    height: 45px;
+    padding: 10px 0px 30px 0px;
+    background-image: url('../images/background-1e.jpg');
+    font-size: x-large;
+    font-family: 'Comic Sans MS';
+}
+
+/* Peek a boo header*/
+#header2
+{
+    width: 100%;
+    background-position: left center;
+    background-repeat: no-repeat;
+    color: #FFFDED;
+    height: 45px;
+    padding: 10px 0px 30px 0px;
+    background-image: url('../images/background-3c.jpg');
+}
+
+/* shovel icon on header */
+#header3
+{
+    font-size: x-large;
+    font-family: Comic Sans MS;
+    width: 100%;
+    background-position: left center;
+    background-repeat: no-repeat;
+    color: #FFFDED;
+    height: 45px;
+    padding: 10px 0px 30px 0px;
+    background-image: url('../images/bgshovel-1c.jpg');
+    
+}
+
+.headerlink a:link, a:focus, a:visited, a:hover
+{
+    border-color:#CAC4B7;
+    color:#CAC4B7;
+}
+
+.nav
+{
+    border-width: medium;
+    border-color: #A98C88 #FFFFFF #A98C88 #FFFFFF;
+    padding: 2px 0 2px 0;
+    background-color: #5E92AA;
+    border-bottom-style: outset;
+    border-top-style: outset;
+}
+
+.nav a
+{
+    border-width: 1px;
+    border-color: #FFFFFF;
+    display: inline-block;
+    padding: 2px;
+    text-decoration: none;
+    text-align: center;
+    width:80px;
+    margin: 2px;
+    
+}
+
+.nav a:link, .nav a:visited
+{
+    background: #5E92AA;
+    color: #FFFFFF;
+}
+
+.nav a:focus, .nav a:hover
+{
+    background-position: #5E92AA;
+    background: #5E92AA;
+    color: #FFB366;
+    
+}
+
+.nav a:active
+{
+    background: #5E92AA;
+    color: #FFFFFF;
+}
+
+a:link, a:visited
+{
+    text-decoration: none;
+    color: #EC7600;
+}
+
+a:hover
+{
+    color: #5E92AA;
+}
+
+#main
+{
+    background-color: #FFFFFF;
+    color: #000000;
+    padding: 15px 5px 20px 5px;
+    width: auto;
+}
+
+
+
+/* purpose is to expand the wrap div all the way down on the home page
+and to give the date of the latest update*/
+#footer
+{
+    text-align: center;
+    padding: 25px 10px 10px 0;
+    clear: both;
+}
+/* End of basic lay out structure for all pages*/
+
+/* moves the links to the right on the homepage*/
+#links
+{
+    width:16%;
+    float:right;
+    padding:0px 0px 5px 0px;
+}
+/* used for category headings in the links colum*/
+.linkcategory
+{
+    border-width: thin;
+    border-color: #666666;
+    font-family: Georgia;
+    font-size: 14px;
+    border-bottom-style: solid;
+    color: #4B5058;
+}
+
+
+/* used for main content area on any page*/
+p
+{  
+    
+    margin: 0 0 10px 0;
+}
+.post
+{
+    width:80%;
+    float:left;
+    padding: 0px 5px 0px 5px;
+}
+
+.midpost
+{
+    clear:both;
+    padding: 0px 5px 0px 5px;
+    width:100%;
+}
+
+/*
+.subpost
+{
+    width:100%;
+    clear:both;
+    padding:5px 0px 40px 20px;
+    margin: 0px 0px 40px 0px;
+}
+*/
+
+/*pleft and pright are used to move text divs left or right*/
+.pleft
+{
+    float:left;
+    width:60%;
+    padding: 0px 5px 0px 5px;
+}
+
+.pright
+{
+    float: right;
+    width: 60%;
+    padding: 0px 5px 0px 5px;
+    margin-top: 20px;
+}
+
+/*picleft and picright are used to move picture divs left or right*/
+.picright
+{
+    float:right;
+    padding: 0px 5px 0px 5px;
+}
+
+.picleft
+{
+    float: left;
+    width:30%;
+    padding: 0px 5px 0px 5px;
+}
+
+/* mostly used for titleheadings for areas of text */
+.sectionheading
+{
+    border-width: medium;
+    border-color: #5E92AA;
+    font-family: Georgia;
+    font-size: 18px;
+    font-weight: 400;
+    border-bottom-style: solid;
+    
+}
+
+.topic
+{
+    font-family: Georgia;
+    font-size: 16px;
+}
+
+.firstword
+{
+    font-size: 14px;
+}
+
+.specialheading
+{
+    font-family: Tunga;
+    font-size: 31px;
+    color: #000099;
+}
+
+/* for videos anywhere within the site */
+/* video page */
+.videocontainer
+{
+    padding: 15px 0px 35px 0px;
+    clear:both;
+}
+
+.videoIcon
+{
+    padding-right: 5px;
+    width:20%;
+    float:left;   
+}
+
+.videodescription
+{
+    padding-top: 40px;
+    width:65%;
+    float:right;
+}
+
+/* Styles for soils */
+.div
+{
+    font-weight: 600;
+    color: #000000;
+}
+
+#content
+{
+    float:left;
+    width:60%;
+}
+
+#picture 
+{
+    float:right;
+    width:auto;
+    padding: 0px 0px 0px 15px;
+}
+
+/* used only on the rubic page */
+.rubic 
+{
+    border-width: thin;
+    border-color: #666666;
+    width: 95%;
+    float: left;
+    padding: 5px 15px 5px 5px;
+    border-bottom-style: solid;
+}
+
+/* used on rubic cube images*/
+.magnify
+{
+    width: 200px;
+    height: 150px;
+}
+
+/* for list */
+ ol li
+{
+    list-style-type:none;
+}
+ol ol li
+{
+    list-style-type:none;  
+}
+
+ol ol ol li
+{
+    list-style-type:none;    
+}
+ol ol ol ol li
+{
+    list-style-type:none;
+}
+
+/* hide and show */
+.hide
+{
+    display:none;
+}
+
+.show
+{
+    display:block;
+    padding-left: 30px;
+    font-family:Comic Sans MS;
+}
+ 
+/* styles for biology 101 currently unused*/
+/* pop up for keyword in Bio Lab */
+.keyword:hover{
+    background-color: transparent;
+}
+
+.keyword:hover img{
+    border: 1px solid blue;
+}
+
+.keyword span{ /*CSS for enlarged image*/
+    position: absolute;
+    background-color: transparent;
+    padding: 5px;
+    left: -1000px;
+    visibility: hidden;
+    color: black;
+    text-decoration: none;
+}
+
+.keyword span img{ /*CSS for enlarged image*/
+    border-width: 0;
+    padding: 2px;
+}
+
+.keyword:hover span{ /*CSS for enlarged image*/
+    visibility: visible;
+    position:fixed;
+    left:500px;
+    top:90px;
+    z-index: 50;
+}
+
+
+
+
+
+
+
+
+
+

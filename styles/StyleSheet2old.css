@@ -1,0 +1,509 @@
+﻿body
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+
+
+/* Basic lay out structure for all pages */
+#wrap
+{
+    background-color: #FFFFFF;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    width: 820px;
+}
+
+#screen
+{
+    background-color: #FFFFFF;
+    padding: 0px 5px 5px 5px;
+    
+}
+
+/* doggie on a leash header*/
+#header
+{
+    
+    width:93.5%;
+    float:left;
+    background-position: left center;
+    background-repeat: no-repeat;
+    height: 45px;
+    padding: 10px 0px 30px 0px;
+    background-image: url('../images/background-1e.jpg');
+}
+
+/* Peek a boo header
+#header2
+{
+    
+    width: 100%;
+    background-position: left center;
+    background-repeat: no-repeat;
+    height: 45px;
+    padding: 10px 0px 30px 0px;
+    background-image: url('../images/background-3d.jpg');
+}
+
+ shovel icon on header 
+#header3
+{
+    width: 100%;
+    background-position: left center;
+    background-repeat: no-repeat;
+    height: 45px;
+    padding: 10px 0px 30px 0px;
+    background-image: url('../images/bgshovel-1b.jpg');
+    
+}*/
+.log
+{
+    width:6%;
+    float:right;
+    padding: 70px 0px 0px 0px;
+}
+
+
+.headerlink a:link, a:focus, a:visited, a:hover
+{
+    border-color:#CAC4B7;
+    color:#CAC4B7;
+}
+
+.nav
+{   clear:both;
+    border-width: medium;
+    border-color: #A98C88 #FFFFFF #A98C88 #FFFFFF;
+    padding: 2px 0 2px 0;
+    background-color: #5E92AA;
+    border-bottom-style: outset;
+    border-top-style: outset;
+}
+
+.nav a
+{
+    border-width: 1px;
+    border-color: #FFFFFF;
+    display: inline-block;
+    padding: 2px;
+    text-decoration: none;
+    text-align: center;
+    width:80px;
+    margin: 2px;
+    
+}
+
+.nav a:link, .nav a:visited
+{
+    background: #5E92AA;
+    color: #FFFFFF;
+}
+
+.nav a:focus, .nav a:hover
+{
+    background-position: #5E92AA;
+    background: #5E92AA;
+    color: #464646;
+}
+
+.nav a:active
+{
+    background: #5E92AA;
+    color: #FFFFFF;
+}
+
+a:link, a:visited
+{
+    text-decoration: none;
+    color: #CC6600;
+}
+
+a:hover
+{
+    color: #5E92AA;
+}
+
+#main
+{
+    background-color: #FFFFFF;
+    color: #000000;
+    padding: 15px 5px 20px 5px;
+    width: auto;
+}
+
+p
+{  
+    
+    margin: 0 0 10px 0;
+}
+/* End of basic lay out structure for all pages*/
+
+/*Styles just for the homepage*/
+/* used on homepage for main content area*/
+.post
+{
+    width:80%;
+    float:left;
+    padding: 0px 10px 0px 0px;
+}
+.subpost
+{
+    width:100%;
+    clear:both;
+    padding:5px 0px 40px 20px;
+    margin: 0px 0px 40px 0px;
+}
+.pleft
+{
+    float:left;
+    width:60%;
+    padding: 0px 5px 0px 5px;
+
+}
+.picright
+{
+    float:right;
+    
+    padding: 0px 5px 0px 5px;
+}
+.midpost
+{
+    clear:both;
+    padding: 0px 5px 0px 5px;
+    width:100%;
+}
+
+.sectionheading
+{
+    border-width: medium;
+    border-color: #5E92AA;
+    font-family: Georgia;
+    font-size: 18px;
+    font-weight: 400;
+    border-bottom-style: solid;
+}
+.currentread
+{
+    font-family: Georgia;
+    font-size: 18px;
+    font-weight: 400;
+    color: #990000;
+}
+
+.topic
+{
+    font-family: Georgia;
+    font-size: 16px;
+}
+.firstword
+{
+    font-size: 14px;
+}
+.specialheading
+{
+    font-family: Tunga;
+    font-size: 31px;
+    color: #000099;
+}
+/* moves the links to the right on the homepage*/
+#links
+{
+    
+    float:right;
+    padding:0px 0px 5px 5px;
+}
+.linkcategoryheader
+{
+    border-width: medium;
+    border-color: #666666;
+    font-family: Georgia;
+    font-size: 15px;
+    border-bottom-style: solid;
+    color: #464646;
+}
+.linkcategory
+{
+    font-family: Georgia;
+    font-size: 13px;
+}
+
+/* purpose is to expand the wrap div all the way down on the home page
+and to give the date of the latest update*/
+#footer
+{
+    text-align: center;
+    padding: 25px 10px 10px 0;
+    clear: both;
+}
+
+
+/* for videos anywhere within the site */
+.moviecontainer
+{
+    position:static;
+}
+.moviescreen
+{
+   position:relative;
+}
+
+.movie
+{
+    width:40%;
+    float:left;
+}
+
+.moviedescrip
+{   width:40%;
+    float:right;
+}
+
+/*Styles used in the school section*/
+/* New drop down menu nav in the school section*/
+.category
+{ 
+    float: left;
+    color: #FFFFFF; 
+    padding: 9px 11px;
+}
+
+.droplinebar{
+overflow: hidden;
+}
+
+.droplinebar ul{
+margin: 0;
+padding: 0;
+float: left;
+width: 100%;
+font: bold 13px Arial;
+background: #2077A6 url('../images/bluedefault.gif') center center repeat-x; /*default background of menu bar*/
+}
+
+.droplinebar ul li{
+display: inline;
+}
+
+.droplinebar ul li a{
+float: left;
+color: white;
+padding: 9px 11px;
+text-decoration: none;
+}
+
+.droplinebar ul li a:visited{
+color: white;
+}
+
+.droplinebar ul li a:hover, .droplinebar ul li .current{ /*background of main menu bar links onMouseover*/
+color: #FFB366;
+background: transparent url('../images/blueactive.gif') center center repeat-x;
+}
+
+/* Sub level menus*/
+.droplinebar ul li ul
+{
+    background-position: #165374;
+    position: absolute;
+    z-index: 100;
+    left: 0;
+    top: 0;
+    background: #1A5E82; /*sub menu background color */
+    visibility: hidden;
+}
+
+/* Sub level menu links style */
+.droplinebar ul li ul li a
+{
+    background-position: #165374;
+    font: normal 13px Verdana;
+    padding: 6px;
+    padding-right: 8px;
+    margin: 0;
+}
+
+.droplinebar ul li ul li a:hover{ /*sub menu links' background color onMouseover */
+background: transparent;
+
+}
+/* sub-sub lvl menu */
+.droplinebar ul li ul li ul
+{
+    background-color: #154E6C;
+}
+/*End of school drop down nav*/
+
+
+/* for list used in school area */
+ ol li
+{
+    list-style-type:none;
+}
+ol ol li
+{
+    list-style-type:none;  
+}
+
+ol ol ol li
+{
+    list-style-type:none;    
+}
+ol ol ol ol li
+{
+    list-style-type:none;
+}
+
+
+
+
+/* styles for chem */
+.hydrocarbmap
+{
+    caption-side:top;
+}
+
+.blueHi
+{
+    color: #0033CC;
+    
+}
+
+.redHi
+{
+    color: #CC0000;
+    
+}
+ 
+ 
+ 
+ 
+/* styles for biology*/
+/* pop up for keyword in Bio Lab */
+
+.keyword:hover{
+    background-color: transparent;
+}
+
+.keyword:hover img{
+    border: 1px solid blue;
+}
+
+.keyword span{ /*CSS for enlarged image*/
+    position: absolute;
+    background-color: transparent;
+    padding: 5px;
+    left: -1000px;
+    visibility: hidden;
+    color: black;
+    text-decoration: none;
+}
+
+.keyword span img{ /*CSS for enlarged image*/
+    border-width: 0;
+    padding: 2px;
+}
+
+.keyword:hover span{ /*CSS for enlarged image*/
+    visibility: visible;
+    position:fixed;
+    left:500px;
+    top:90px;
+    z-index: 50;
+}
+
+
+
+
+
+/* Styles for soils */
+
+/* for the quiz hide / show */
+
+.div
+{
+    font-weight: 600;
+    color: #000000;
+}
+#content
+{
+    float:left;
+    width:60%;
+}
+#picture
+{
+    float:right;
+    width:auto;
+    padding: 0px 0px 0px 15px;
+}
+
+.answer
+{
+    margin-left: 5px;
+    padding: 2px 0px 2px 5px;
+    display: block;
+    text-decoration: none;
+    height: 19px;
+    color: #003300;
+}
+
+.hide
+{
+    display:none;
+}
+
+.show
+{
+    display:block;
+    padding-left: 30px;
+    font-family:Comic Sans MS;
+}
+/* end of quiz hide / show */
+
+
+/* used for picture gallery pages, 
+Credits: Dynamic Drive CSS Library */
+/*URL: http://www.dynamicdrive.com/style/ */
+
+.gallerycontainer{
+    position: relative;
+/*Add a height attribute and set to largest image's height to prevent overlaying*/
+}
+
+.thumbnail img{
+    border: 1px solid white;
+    margin: 0 5px 5px 0;
+}
+
+.thumbnail:hover{
+    background-color: transparent;
+}
+
+.thumbnail:hover img{
+    border: 1px solid blue;
+}
+
+.thumbnail span{ /*CSS for enlarged image*/
+    position: absolute;
+    background-color: transparent;
+    padding: 5px;
+    left: -1000px;
+    visibility: hidden;
+    color: black;
+    text-decoration: none;
+}
+
+.thumbnail span img{ /*CSS for enlarged image*/
+    border-width: 0;
+    padding: 2px;
+}
+
+.thumbnail:hover span{ /*CSS for enlarged image*/
+    visibility: visible;
+    top: 0;
+    left: 250px; /*position where enlarged image should offset horizontally */
+    z-index: 50;
+}
+/* end of picture gallery pages */
